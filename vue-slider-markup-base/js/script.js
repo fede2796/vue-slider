@@ -48,7 +48,7 @@ var slider = new Vue(
                     this.attivelement = this.slides.length - 1;
                 }
             },
-            Previousimage (){
+            Previousimage(){
                 if(this.attivelement < this.slides.length - 1){
                     //aumento di uno l'elemento
                     this.attivelement++;
