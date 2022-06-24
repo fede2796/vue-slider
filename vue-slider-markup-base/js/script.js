@@ -1,3 +1,9 @@
+// Ciao ragazzi,
+// Esercizio di oggi: Vue Slider
+// nome repo: vue-slider
+// Descrizione:
+// Partendo dal markup in allegato, rifare lo slider usando Vuejs.
+
 var slider = new Vue(
     {
         el: '#app',
@@ -36,9 +42,18 @@ var slider = new Vue(
         methods: {
             NextImage(){
                 if(this.attivelement > 0){
+                    //decremento l'elemento
                     this.attivelement--;
                 }else{
                     this.attivelement = this.slides.length - 1;
+                }
+            },
+            Previousimage (){
+                if(this.attivelement < this.slides.length - 1){
+                    //aumento di uno l'elemento
+                    this.attivelement++;
+                }else{
+                    this.attivelement = 0;
                 }
             }
         }
