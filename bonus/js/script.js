@@ -55,7 +55,7 @@ var app = new Vue(
                 }else{
                     this.attivelement = 0;
                 }
-            }
+            },
             clickSlides(index){
                 this.currentActiveElement = index;  
             }
