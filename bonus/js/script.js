@@ -1,9 +1,4 @@
-// Ciao ragazzi,
-// Esercizio di oggi: Vue Slider
-// nome repo: vue-slider
-// Descrizione:
-// Partendo dal markup in allegato, rifare lo slider usando Vuejs.
-
+//bonus
 var app = new Vue(
     {
         el: '#app',
