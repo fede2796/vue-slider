@@ -4,7 +4,7 @@
 // Descrizione:
 // Partendo dal markup in allegato, rifare lo slider usando Vuejs.
 
-var slider = new Vue(
+var app = new Vue(
     {
         el: '#app',
         data: {
