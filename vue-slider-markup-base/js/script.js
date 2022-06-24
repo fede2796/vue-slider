@@ -10,7 +10,7 @@ var slider = new Vue(
         data: {
             attivelement : 0,
 
-            const slides = [
+             slides: [
                 {
                     image: 'img/01.jpg',
                     title: 'Svezia',
