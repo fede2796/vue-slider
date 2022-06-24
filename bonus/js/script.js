@@ -4,7 +4,7 @@ var app = new Vue(
         el: '#app',
         data: {
             attivelement : 0,
-
+            time: null,
              slides: [
                 {
                     image: 'img/01.jpg',
@@ -53,7 +53,12 @@ var app = new Vue(
             },
             clickSlides(index){
                 this.currentActiveElement = index;  
+            },
+            timeNextImage(){
+                this.NextImage();
             }
+
+            
         }
     }
 ) 
